@@ -28,6 +28,7 @@ Trac configuration
 ------------------
 
 Add the following to your trac.ini file:
+
 	[svn2gitchangesets]
 	changesets_url = https://github.com/<github username>/<repo name>/commit/%s
 	pickled_map = /path/from/step/4/to/svn2git_commits.pkl
